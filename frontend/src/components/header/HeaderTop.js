@@ -10,7 +10,7 @@ const HeaderTop = ({
   setCurrency,
   currentLanguageCode,
   dispatch,
-  borderStyle
+  borderStyle,
 }) => {
   return (
     <div
@@ -28,7 +28,7 @@ const HeaderTop = ({
         <p>
           Free delivery on order over{" "}
           <span>
-            {currency.currencySymbol + (200 * currency.currencyRate).toFixed(2)}
+            {currency.currencySymbol + (100 * currency.currencyRate).toFixed(2)}
           </span>
         </p>
       </div>
@@ -41,20 +41,20 @@ HeaderTop.propTypes = {
   setCurrency: PropTypes.func,
   currency: PropTypes.object,
   currentLanguageCode: PropTypes.string,
-  dispatch: PropTypes.func
+  dispatch: PropTypes.func,
 };
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    currency: state.currencyData
+    currency: state.currencyData,
   };
 };
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
   return {
-    setCurrency: currencyName => {
+    setCurrency: (currencyName) => {
       dispatch(setCurrency(currencyName));
-    }
+    },
   };
 };
 

@@ -8,7 +8,7 @@ const LayoutOne = ({
   headerContainerClass,
   headerTop,
   headerPaddingClass,
-  headerPositionClass
+  headerPositionClass,
 }) => {
   return (
     <Fragment>
@@ -33,7 +33,7 @@ LayoutOne.propTypes = {
   headerContainerClass: PropTypes.string,
   headerPaddingClass: PropTypes.string,
   headerPositionClass: PropTypes.string,
-  headerTop: PropTypes.string
+  headerTop: PropTypes.string,
 };
 
 export default LayoutOne;

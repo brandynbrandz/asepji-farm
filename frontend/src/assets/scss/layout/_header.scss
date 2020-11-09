@@ -126,7 +126,12 @@
     }
   }
 }
-
+.headerlogo {
+  margin: -15px 0;
+  @media #{$sm-layout,$xxs-layout} {
+    width: 100%;
+  }
+}
 .stick {
   .logo-hm5 {
     a.sticky-block {

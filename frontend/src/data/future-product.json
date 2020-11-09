@@ -1,0 +1,383 @@
+[
+  {
+    "id": "1",
+    "category": "fruits",
+    "subCategory": "vegatables",
+    "name": "Onion",
+    "rate": 5,
+    "price": 12,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/products/fruits/1.png",
+      "/assets/images/products/fruits/2.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/1.png",
+      "/assets/images/products/fruits/2.png",
+      "/assets/images/products/fruits/3.png",
+      "/assets/images/products/fruits/4.png"
+    ],
+    "description": "",
+    "slug": "onion-17"
+  },
+  {
+    "id": "2",
+    "category": "fruits",
+    "subCategory": "vegatables",
+    "name": "Samba onion",
+    "rate": 5,
+    "price": 12,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/products/fruits/2.png",
+      "/assets/images/products/fruits/3.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/2.png",
+      "/assets/images/products/fruits/3.png",
+      "/assets/images/products/fruits/4.png",
+      "/assets/images/products/fruits/5.png"
+    ],
+    "description": "",
+    "slug": "samba-onion-18"
+  },
+  {
+    "id": "3",
+    "category": "fruits",
+    "subCategory": "vegatables",
+    "name": "tomato",
+    "rate": 4,
+    "price": 8,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/products/fruits/3.png",
+      "/assets/images/products/fruits/4.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/3.png",
+      "/assets/images/products/fruits/4.png",
+      "/assets/images/products/fruits/5.png",
+      "/assets/images/products/fruits/6.png"
+    ],
+    "description": "",
+    "slug": "tomato-19"
+  },
+  {
+    "id": "4",
+    "category": "fruits",
+    "subCategory": "fruits",
+    "name": "potatoes",
+    "rate": 5,
+    "price": 12,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/products/fruits/4.png",
+      "/assets/images/products/fruits/5.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/4.png",
+      "/assets/images/products/fruits/5.png",
+      "/assets/images/products/fruits/6.png",
+      "/assets/images/products/fruits/7.png"
+    ],
+    "description": "",
+    "slug": "potatoes-20"
+  },
+  {
+    "id": "5",
+    "category": "fruits",
+    "subCategory": "vegatables",
+    "name": "lady finger",
+    "rate": 3,
+    "price": 6,
+    "quantity": 15,
+    "thumbImage": [
+      "/assets/images/products/fruits/5.png",
+      "/assets/images/products/fruits/6.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/5.png",
+      "/assets/images/products/fruits/6.png",
+      "/assets/images/products/fruits/7.png",
+      "/assets/images/products/fruits/8.png"
+    ],
+    "description": "",
+    "slug": "lady-finger-21"
+  },
+  {
+    "id": "6",
+    "category": "fruits",
+    "subCategory": "vegatables",
+    "name": "gingerbone",
+    "rate": 4,
+    "price": 10,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/products/fruits/6.png",
+      "/assets/images/products/fruits/7.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/6.png",
+      "/assets/images/products/fruits/7.png",
+      "/assets/images/products/fruits/8.png",
+      "/assets/images/products/fruits/9.png"
+    ],
+    "description": "",
+    "slug": "gingerbone-22"
+  },
+  {
+    "id": "7",
+    "category": "fruits",
+    "subCategory": "fruits",
+    "name": "lemon",
+    "rate": 5,
+    "price": 5,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/products/fruits/7.png",
+      "/assets/images/products/fruits/8.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/7.png",
+      "/assets/images/products/fruits/8.png",
+      "/assets/images/products/fruits/9.png",
+      "/assets/images/products/fruits/10.png"
+    ],
+    "description": "",
+    "slug": "lemon-23"
+  },
+  {
+    "id": "8",
+    "category": "fruits",
+    "subCategory": "fruits",
+    "name": "pear",
+    "rate": 4,
+    "price": 10,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/products/fruits/8.png",
+      "/assets/images/products/fruits/9.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/8.png",
+      "/assets/images/products/fruits/9.png",
+      "/assets/images/products/fruits/10.png",
+      "/assets/images/products/fruits/11.png"
+    ],
+    "description": "",
+    "slug": "pear-24"
+  },
+  {
+    "id": "9",
+    "category": "fruits",
+    "subCategory": "vegatables",
+    "name": "Green capsicum",
+    "rate": 5,
+    "price": 13,
+    "quantity": 9,
+    "thumbImage": [
+      "/assets/images/products/fruits/9.png",
+      "/assets/images/products/fruits/10.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/9.png",
+      "/assets/images/products/fruits/10.png",
+      "/assets/images/products/fruits/11.png",
+      "/assets/images/products/fruits/12.png"
+    ],
+    "description": "",
+    "slug": "green-capsicum-25"
+  },
+  {
+    "id": "10",
+    "category": "fruits",
+    "subCategory": "vegatables",
+    "name": "Garlic",
+    "rate": 5,
+    "price": 5,
+    "quantity": 26,
+    "thumbImage": [
+      "/assets/images/products/fruits/10.png",
+      "/assets/images/products/fruits/11.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/10.png",
+      "/assets/images/products/fruits/11.png",
+      "/assets/images/products/fruits/12.png",
+      "/assets/images/products/fruits/12.png"
+    ],
+    "description": "",
+    "slug": "garlic-26"
+  },
+  {
+    "id": "11",
+    "category": "fruits",
+    "subCategory": "nut",
+    "name": "coconut",
+    "rate": 5,
+    "price": 20,
+    "quantity": 30,
+    "thumbImage": [
+      "/assets/images/products/fruits/11.png",
+      "/assets/images/products/fruits/12.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/11.png",
+      "/assets/images/products/fruits/12.png",
+      "/assets/images/products/fruits/13.png",
+      "/assets/images/products/fruits/14.png"
+    ],
+    "description": "",
+    "slug": "coconut-27"
+  },
+  {
+    "id": "12",
+    "category": "fruits",
+    "subCategory": "fruits",
+    "name": "Watermelon",
+    "rate": 4,
+    "price": 22,
+    "discount": 2,
+    "quantity": 17,
+    "thumbImage": [
+      "/assets/images/products/fruits/12.png",
+      "/assets/images/products/fruits/13.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/12.png",
+      "/assets/images/products/fruits/13.png",
+      "/assets/images/products/fruits/14.png",
+      "/assets/images/products/fruits/15.png"
+    ],
+    "description": "",
+    "slug": "watermelon-28"
+  },
+  {
+    "id": "13",
+    "category": "fruits",
+    "subCategory": "vegatables",
+    "name": "bitter melon",
+    "rate": 4,
+    "price": 11,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/products/fruits/13.png",
+      "/assets/images/products/fruits/14.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/13.png",
+      "/assets/images/products/fruits/14.png",
+      "/assets/images/products/fruits/15.png",
+      "/assets/images/products/fruits/16.png"
+    ],
+    "description": "",
+    "slug": "bitter-melon-29"
+  },
+  {
+    "id": "14",
+    "category": "fruits",
+    "subCategory": "fruits",
+    "name": "Mango",
+    "rate": 5,
+    "price": 26,
+    "discount": 5,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/products/fruits/14.png",
+      "/assets/images/products/fruits/15.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/14.png",
+      "/assets/images/products/fruits/15.png",
+      "/assets/images/products/fruits/16.png",
+      "/assets/images/products/fruits/17.png"
+    ],
+    "description": "",
+    "slug": "mango-30"
+  },
+  {
+    "id": "15",
+    "category": "fruits",
+    "subCategory": "fruits",
+    "name": "Pomegranate",
+    "rate": 4,
+    "price": 11,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/products/fruits/15.png",
+      "/assets/images/products/fruits/16.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/15.png",
+      "/assets/images/products/fruits/16.png",
+      "/assets/images/products/fruits/17.png",
+      "/assets/images/products/fruits/18.png"
+    ],
+    "description": "",
+    "slug": "pomegranate-31"
+  },
+  {
+    "id": "16",
+    "category": "fruits",
+    "subCategory": "vegatables",
+    "name": "Cabbage",
+    "rate": 3,
+    "price": 16,
+    "quantity": 20,
+    "thumbImage": [
+      "/assets/images/products/fruits/16.png",
+      "/assets/images/products/fruits/17.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/16.png",
+      "/assets/images/products/fruits/17.png",
+      "/assets/images/products/fruits/18.png",
+      "/assets/images/products/fruits/19.png"
+    ],
+    "description": "",
+    "slug": "cabbage-32"
+  },
+  {
+    "id": "17",
+    "category": "fruits",
+    "subCategory": "fruits",
+    "name": "Orange",
+    "rate": 5,
+    "price": 13,
+    "isNew": true,
+    "quantity": 6,
+    "thumbImage": [
+      "/assets/images/products/fruits/17.png",
+      "/assets/images/products/fruits/18.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/17.png",
+      "/assets/images/products/fruits/18.png",
+      "/assets/images/products/fruits/19.png",
+      "/assets/images/products/fruits/20.png"
+    ],
+    "description": "",
+    "slug": "pomegranate-31"
+  },
+  {
+    "id": "18",
+    "category": "fruits",
+    "subCategory": "vegatables",
+    "name": "Cauliflower",
+    "rate": 4,
+    "price": 23,
+    "quantity": 8,
+    "thumbImage": [
+      "/assets/images/products/fruits/18.png",
+      "/assets/images/products/fruits/19.png"
+    ],
+    "images": [
+      "/assets/images/products/fruits/18.png",
+      "/assets/images/products/fruits/19.png",
+      "/assets/images/products/fruits/20.png",
+      "/assets/images/products/fruits/1.png"
+    ],
+    "description": "",
+    "slug": "cauliflower-34"
+  }
+]

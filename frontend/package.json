@@ -10,6 +10,7 @@
     "bootstrap": "^4.5.3",
     "fontawesome-4.7": "^4.7.0",
     "node-sass": "^4.14.1",
+    "pixeden-stroke-7-icon": "^1.2.3",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",

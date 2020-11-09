@@ -3,7 +3,7 @@ import { SET_CURRENCY } from "../actions/currencyActions";
 const initState = {
   currencySymbol: "Ksh",
   currencyName: "KES",
-  currencyRate: 109.05,
+  currencyRate: 109.0,
 };
 
 const currencyReducer = (state = initState, action) => {
@@ -22,7 +22,7 @@ const currencyReducer = (state = initState, action) => {
       return {
         ...state,
         currencySymbol: "Ksh",
-        currencyRate: 109.05,
+        currencyRate: 109.0,
         currencyName,
       };
     }

@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <MetaTags>
-        <title>Flone | Fashion Home</title>
+        <title>Asepji | Farm Home</title>
         <meta
           name="description"
           content="Asepji, the most affordable farm produce."

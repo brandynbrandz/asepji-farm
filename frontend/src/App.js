@@ -51,6 +51,7 @@ function App(props) {
                   path={process.env.PUBLIC_URL + "/"}
                   component={Home}
                 />
+
                 {/* Other pages */}
 
                 <Route
@@ -62,10 +63,10 @@ function App(props) {
                   component={LoginRegister}
                 />
 
-                <Route
+                {/* <Route
                   path={process.env.PUBLIC_URL + "/cart"}
                   component={Cart}
-                />
+                /> */}
                 <Route
                   path={process.env.PUBLIC_URL + "/wishlist"}
                   component={Wishlist}

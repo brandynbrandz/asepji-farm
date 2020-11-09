@@ -2,7 +2,9 @@ import PropTypes from "prop-types";
 import React from "react";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
-import SectionTitleSix from "../../components/section-title/SectionTitleSix";
+import { Link } from "react-router-dom";
+
+import SectionTitleThree from "../../components/section-title/SectionTitleThree";
 import ProductGridSeven from "./ProductGridSeven";
 
 const TabProductEighteen = ({
@@ -10,7 +12,8 @@ const TabProductEighteen = ({
   spaceBottomClass,
   category,
   containerClass,
-  extraClass
+  productTabClass,
+  extraClass,
 }) => {
   return (
     <div
@@ -20,32 +23,36 @@ const TabProductEighteen = ({
     >
       <div className={`${containerClass ? containerClass : "container"}`}>
         <Tab.Container defaultActiveKey="bestSeller">
-          <div className="row mb-60 align-items-center">
+          <div className="container">
             <div className="col-lg-6">
-              <SectionTitleSix sectionTitle="TOP RATED PRODUCTS" />
+              <SectionTitleThree
+                titleText="Featured products"
+                positionClass="text-center"
+              />
             </div>
-            <div className="col-lg-6">
-              <Nav
-                variant="pills"
-                className="product-tab-list product-tab-list--style2 justify-content-start justify-content-lg-end"
-              >
-                <Nav.Item>
-                  <Nav.Link eventKey="newArrival">
-                    <h4>New Arrivals</h4>
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="bestSeller">
-                    <h4>Best Sellers</h4>
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="saleItems">
-                    <h4>Sale Items</h4>
-                  </Nav.Link>
-                </Nav.Item>
-              </Nav>
-            </div>
+
+            <Nav
+              variant="pills"
+              className={`product-tab-list pt-35 pb-60 text-center ${
+                productTabClass ? productTabClass : ""
+              }`}
+            >
+              <Nav.Item>
+                <Nav.Link eventKey="newArrival">
+                  <h4>New Arrivals</h4>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link eventKey="bestSeller">
+                  <h4>Best Sellers</h4>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link eventKey="saleItems">
+                  <h4>Sale Items</h4>
+                </Nav.Link>
+              </Nav.Item>
+            </Nav>
           </div>
 
           <Tab.Content>
@@ -81,6 +88,11 @@ const TabProductEighteen = ({
             </Tab.Pane>
           </Tab.Content>
         </Tab.Container>
+        <div className="view-more text-center mt-20 toggle-btn6 col-12">
+          <Link className="loadMore6" to={process.env.PUBLIC_URL + "/shop"}>
+            VIEW MORE PRODUCTS
+          </Link>
+        </div>
       </div>
     </div>
   );
@@ -91,7 +103,7 @@ TabProductEighteen.propTypes = {
   containerClass: PropTypes.string,
   extraClass: PropTypes.string,
   spaceBottomClass: PropTypes.string,
-  spaceTopClass: PropTypes.string
+  spaceTopClass: PropTypes.string,
 };
 
 export default TabProductEighteen;

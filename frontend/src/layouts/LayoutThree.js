@@ -1,39 +1,45 @@
 import PropTypes from "prop-types";
 import React, { Fragment } from "react";
 import HeaderOne from "../wrappers/header/HeaderOne";
+// import FooterTwo from "../wrappers/footer/FooterTwo";
 import FooterOne from "../wrappers/footer/FooterOne";
 
-const LayoutOne = ({
+const LayoutThree = ({
   children,
   headerContainerClass,
   headerTop,
+  headerBorderStyle,
   headerPaddingClass,
-  headerPositionClass,
 }) => {
   return (
     <Fragment>
       <HeaderOne
         layout={headerContainerClass}
         top={headerTop}
+        borderStyle={headerBorderStyle}
         headerPaddingClass={headerPaddingClass}
-        headerPositionClass={headerPositionClass}
       />
       {children}
       <FooterOne
-        backgroundColorClass="bg-gray"
-        spaceTopClass="pt-100"
-        spaceBottomClass="pb-70"
+        backgroundColorClass="footer-white"
+        spaceLeftClass="ml-70"
+        spaceRightClass="mr-70"
+        footerTopBackgroundColorClass="bg-gray-2"
+        footerTopSpaceTopClass="pt-80"
+        footerTopSpaceBottomClass="pb-60"
+        copyrightColorClass="copyright-gray"
+        footerLogo="/assets/img/logo/logo.png"
       />
     </Fragment>
   );
 };
 
-LayoutOne.propTypes = {
+LayoutThree.propTypes = {
   children: PropTypes.any,
+  headerBorderStyle: PropTypes.string,
   headerContainerClass: PropTypes.string,
   headerPaddingClass: PropTypes.string,
-  headerPositionClass: PropTypes.string,
   headerTop: PropTypes.string,
 };
 
-export default LayoutOne;
+export default LayoutThree;

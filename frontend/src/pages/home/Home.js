@@ -1,8 +1,9 @@
 import React from "react";
 import MetaTags from "react-meta-tags";
-// import HeroSliderEighteen from "../../wrappers/hero-slider/HeroSliderEighteen";
+import BannerFourteen from "../../wrappers/banner/BannerFourteen";
+import HeroSliderFive from "../../wrappers/hero-slider/HeroSliderFive";
+import LayoutThree from "../../layouts/LayoutThree";
 
-import LayoutOne from "../../layouts/LayoutOne";
 import TabProductEighteen from "../../wrappers/product/TabProductEighteen";
 
 const Home = () => {
@@ -16,16 +17,22 @@ const Home = () => {
           content="Asepji, the most affordable farm produce."
         />
       </MetaTags>
-      <LayoutOne
-        headerContainerClass="container-fluid"
-        headerPaddingClass="header-padding-2"
+      <LayoutThree
         headerTop="visible"
+        headerContainerClass="container-fluid"
+        headerBorderStyle="fluid-border"
+        headerPaddingClass="header-padding-2"
       >
         {/* hero slider */}
-        {/* <HeroSliderEighteen /> */}
+        <HeroSliderFive />
         {/* product tab */}
-        <TabProductEighteen category="flower" spaceBottomClass="pb-70" />
-      </LayoutOne>
+        <TabProductEighteen
+          category="flower"
+          spaceBottomClass="pb-70"
+          productTabClass="product-tab-fruits"
+        />
+        <BannerFourteen spaceTopClass="pt-95" spaceBottomClass="pb-70" />
+      </LayoutThree>
     </>
   );
 };

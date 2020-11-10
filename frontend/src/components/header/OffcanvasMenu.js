@@ -19,7 +19,7 @@ const OffcanvasMenu = ({ activeState, getActiveState }) => {
         <Link to={process.env.PUBLIC_URL + "/"}>
           <img
             alt=""
-            src={process.env.PUBLIC_URL + "/assets/img/logo/logo.png"}
+            src={process.env.PUBLIC_URL + "/assets/img/logo/logo.svg"}
           />
         </Link>
       </div>
@@ -34,7 +34,7 @@ const OffcanvasMenu = ({ activeState, getActiveState }) => {
 
 OffcanvasMenu.propTypes = {
   activeState: PropTypes.bool,
-  getActiveState: PropTypes.func
+  getActiveState: PropTypes.func,
 };
 
 export default OffcanvasMenu;

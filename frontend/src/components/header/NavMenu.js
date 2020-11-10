@@ -254,7 +254,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
             </ul>
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+            <Link to={process.env.PUBLIC_URL + "/shop"}>
               {" "}
               {strings["shop"]}
               {sidebarMenu ? (
@@ -460,7 +460,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
             </ul>
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
+            <Link to={process.env.PUBLIC_URL + "/blog"}>
               {strings["blog"]}
               {sidebarMenu ? (
                 <span>
@@ -472,13 +472,13 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
             </Link>
             <ul className="submenu">
               <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                  {strings["blog_standard"]}
+                <Link to={process.env.PUBLIC_URL + "/blog"}>
+                  {strings["blog_home"]}
                 </Link>
               </li>
               <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-no-sidebar"}>
-                  {strings["blog_no_sidebar"]}
+                <Link to={process.env.PUBLIC_URL + "/blog-trending"}>
+                  {strings["blog_trending"]}
                 </Link>
               </li>
               <li>
@@ -507,7 +507,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
 NavMenu.propTypes = {
   menuWhiteClass: PropTypes.string,
   sidebarMenu: PropTypes.bool,
-  strings: PropTypes.object
+  strings: PropTypes.object,
 };
 
 export default multilanguage(NavMenu);

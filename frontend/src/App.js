@@ -18,6 +18,14 @@ const LoginRegister = lazy(() => import("./pages/other/LoginRegister"));
 const Cart = lazy(() => import("./pages/other/Cart"));
 const Wishlist = lazy(() => import("./pages/other/Wishlist"));
 
+// shop page
+const ShopGridFilter = lazy(() => import("./pages/shop/ShopGridFilter"));
+
+// product page
+const ProductTabLeft = lazy(() =>
+  import("./pages/shop-product/ProductTabLeft")
+);
+
 function App(props) {
   useEffect(() => {
     props.dispatch(
@@ -63,13 +71,31 @@ function App(props) {
                   component={LoginRegister}
                 />
 
-                {/* <Route
+                <Route
                   path={process.env.PUBLIC_URL + "/cart"}
                   component={Cart}
-                /> */}
+                />
                 <Route
                   path={process.env.PUBLIC_URL + "/wishlist"}
                   component={Wishlist}
+                />
+
+                {/* Shop */}
+                <Route
+                  path={process.env.PUBLIC_URL + "/shop"}
+                  component={ShopGridFilter}
+                />
+
+                {/* Product */}
+                {/* <Route
+                  path={process.env.PUBLIC_URL + "/product/:id"}
+                  render={(routeProps) => (
+                    <Product {...routeProps} key={routeProps.match.params.id} />
+                  )}
+                /> */}
+                <Route
+                  path={process.env.PUBLIC_URL + "/product/:id"}
+                  component={ProductTabLeft}
                 />
               </Switch>
             </Suspense>

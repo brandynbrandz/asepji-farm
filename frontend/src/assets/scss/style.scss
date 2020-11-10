@@ -1,5 +1,6 @@
 // Base
 @import "base/variables";
+@import "base/mixins";
 
 // Layout Index
 @import "layout/header";
@@ -8,6 +9,10 @@
 // utilities
 @import "utilities/common";
 @import "utilities/preloader";
+
+// pages
+@import "pages/product-details";
+@import "pages/shop";
 
 // components
 @import "components/slider";

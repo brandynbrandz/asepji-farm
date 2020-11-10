@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 import Swiper from "react-id-swiper";
-import SectionTitle from "../../components/section-title/SectionTitle";
+import SectionTitleThree from "../../components/section-title/SectionTitleThree";
 import ProductGrid from "./ProductGrid";
 
 const RelatedProductSlider = ({ spaceBottomClass, category }) => {
@@ -11,18 +11,18 @@ const RelatedProductSlider = ({ spaceBottomClass, category }) => {
     grabCursor: true,
     breakpoints: {
       1024: {
-        slidesPerView: 4
+        slidesPerView: 4,
       },
       768: {
-        slidesPerView: 3
+        slidesPerView: 3,
       },
       640: {
-        slidesPerView: 2
+        slidesPerView: 2,
       },
       320: {
-        slidesPerView: 1
-      }
-    }
+        slidesPerView: 1,
+      },
+    },
   };
 
   return (
@@ -32,7 +32,7 @@ const RelatedProductSlider = ({ spaceBottomClass, category }) => {
       }`}
     >
       <div className="container">
-        <SectionTitle
+        <SectionTitleThree
           titleText="Related Products"
           positionClass="text-center"
           spaceClass="mb-50"
@@ -53,7 +53,7 @@ const RelatedProductSlider = ({ spaceBottomClass, category }) => {
 
 RelatedProductSlider.propTypes = {
   category: PropTypes.string,
-  spaceBottomClass: PropTypes.string
+  spaceBottomClass: PropTypes.string,
 };
 
 export default RelatedProductSlider;

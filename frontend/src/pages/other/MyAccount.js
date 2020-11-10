@@ -144,12 +144,12 @@ const MyAccount = ({ location }) => {
                               <div className="row">
                                 <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">
                                   <div className="entries-info text-center">
-                                    <p>Farhana hayder (shuvo) </p>
-                                    <p>hastech </p>
-                                    <p> Road#1 , Block#c </p>
-                                    <p> Rampura. </p>
-                                    <p>Dhaka </p>
-                                    <p>Bangladesh </p>
+                                    <p>Harvey (Nafula) </p>
+                                    <p>Male </p>
+                                    <p> Namba Kahezron , Suna West </p>
+                                    <p> Suna. </p>
+                                    <p>Migori </p>
+                                    <p>Kenya </p>
                                   </div>
                                 </div>
                                 <div className="col-lg-6 col-md-6 d-flex align-items-center justify-content-center">

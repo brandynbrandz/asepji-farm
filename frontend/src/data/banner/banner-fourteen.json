@@ -2,25 +2,25 @@
   {
     "id": 1,
     "image": "/assets/img/banner/banner-11.png",
-    "title": "Male Kids",
+    "title": "Chicken Lovers",
     "subtitle": "Starting at",
-    "price": "$99.00",
-    "link": "/shop-grid-standard"
+    "price": "Ksh 450",
+    "link": "/shop"
   },
   {
     "id": 2,
     "image": "/assets/img/banner/banner-12.png",
-    "title": "Female kids",
+    "title": "Vegetarians",
     "subtitle": "Starting at",
-    "price": "$79.00",
-    "link": "/shop-grid-standard"
+    "price": "Ksh 150",
+    "link": "/shop"
   },
   {
     "id": 3,
     "image": "/assets/img/banner/banner-13.png",
     "title": "Featured",
     "subtitle": "Starting at",
-    "price": "$29.00",
-    "link": "/shop-grid-standard"
+    "price": "Ksh 200",
+    "link": "/shop"
   }
 ]

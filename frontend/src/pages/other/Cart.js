@@ -255,20 +255,20 @@ const Cart = ({
                           <div className="tax-select">
                             <label>* Country</label>
                             <select className="email s-email s-wid">
-                              <option>Bangladesh</option>
-                              <option>Albania</option>
-                              <option>Åland Islands</option>
-                              <option>Afghanistan</option>
-                              <option>Belgium</option>
+                              <option>Kenya</option>
+                              <option>Uganda</option>
+                              <option>Tanzania</option>
+                              <option>Rwanda</option>
                             </select>
                           </div>
                           <div className="tax-select">
                             <label>* Region / State</label>
                             <select className="email s-email s-wid">
-                              <option>Bangladesh</option>
-                              <option>Albania</option>
-                              <option>Åland Islands</option>
-                              <option>Afghanistan</option>
+                              <option>Nairobi</option>
+                              <option>Kiambu</option>
+                              <option>Migori</option>
+                              <option>Kisii</option>
+                              <option>Kisumu</option>
                               <option>Belgium</option>
                             </select>
                           </div>

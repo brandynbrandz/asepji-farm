@@ -3,14 +3,14 @@
     "id": 1,
     "title": "Natural & Healthy",
     "subtitle": "100% Organic Fruits Collection",
-    "image": "/assets/img/slider/slider-8.jpg",
-    "url": "/shop-grid-standard"
+    "image": "/assets/img/slider/slider-1.jpg",
+    "url": "/shop"
   },
   {
     "id": 2,
     "title": "Natural & Healthy",
     "subtitle": "100% Organic Veg Collection",
-    "image": "/assets/img/slider/slider-8-2.jpg",
-    "url": "/shop-grid-standard"
+    "image": "/assets/img/slider/slider-2.jpg",
+    "url": "/shop"
   }
 ]

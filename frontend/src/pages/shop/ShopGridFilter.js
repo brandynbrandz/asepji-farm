@@ -7,6 +7,7 @@ import { connect } from "react-redux";
 import { getSortedProducts } from "../../helpers/product";
 import LayoutThree from "../../layouts/LayoutThree";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
+import ShopTopbar from "../../wrappers/product/shop/ShopTopbar";
 import ShopTopbarFilter from "../../wrappers/product/shop/ShopTopbarFilter";
 import ShopProducts from "../../wrappers/product/shop/ShopProducts";
 
@@ -73,6 +74,13 @@ const ShopGridFilter = ({ location, products }) => {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
+                {/* shop topbar default */}
+                <ShopTopbar
+                  getLayout={getLayout}
+                  getFilterSortParams={getFilterSortParams}
+                  productCount={products.length}
+                  sortedProductCount={currentData.length}
+                />
                 {/* shop topbar filter */}
                 <ShopTopbarFilter
                   getLayout={getLayout}
@@ -82,7 +90,6 @@ const ShopGridFilter = ({ location, products }) => {
                   products={products}
                   getSortParams={getSortParams}
                 />
-
                 {/* shop page content default */}
                 <ShopProducts layout={layout} products={currentData} />
 

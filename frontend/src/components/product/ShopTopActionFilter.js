@@ -4,17 +4,17 @@ import ShopTopFilter from "./ShopTopFilter";
 import { toggleShopTopFilter } from "../../helpers/product";
 
 const ShopTopActionFilter = ({
-  getFilterSortParams,
-  productCount,
-  sortedProductCount,
+  // getFilterSortParams,
+  // productCount,
+  // sortedProductCount,
   products,
-  getSortParams
+  getSortParams,
 }) => {
   return (
     <Fragment>
-      <div className="shop-top-bar mb-35">
-        <div className="select-shoing-wrap">
-          <div className="shop-select">
+      <div className="shop-top-bar mb-15">
+        {/* <div className="select-shoing-wrap"> */}
+        {/* <div className="shop-select">
             <select
               onChange={e => getFilterSortParams("filterSort", e.target.value)}
             >
@@ -22,14 +22,14 @@ const ShopTopActionFilter = ({
               <option value="priceHighToLow">Price - High to Low</option>
               <option value="priceLowToHigh">Price - Low to High</option>
             </select>
-          </div>
-          <p>
+          </div> */}
+        {/* <p>
             Showing {sortedProductCount} of {productCount} result
-          </p>
-        </div>
+          </p> */}
+        {/* </div> */}
 
         <div className="filter-active">
-          <button onClick={e => toggleShopTopFilter(e)}>
+          <button onClick={(e) => toggleShopTopFilter(e)}>
             <i className="fa fa-plus"></i> filter
           </button>
         </div>
@@ -46,7 +46,7 @@ ShopTopActionFilter.propTypes = {
   getSortParams: PropTypes.func,
   productCount: PropTypes.number,
   products: PropTypes.array,
-  sortedProductCount: PropTypes.number
+  sortedProductCount: PropTypes.number,
 };
 
 export default ShopTopActionFilter;

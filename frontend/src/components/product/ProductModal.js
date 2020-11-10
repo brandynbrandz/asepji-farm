@@ -105,7 +105,7 @@ function ProductModal(props) {
                     product.image.map((single, key) => {
                       return (
                         <div key={key}>
-                          <div className="single-image">
+                          <div className="">
                             <img
                               src={process.env.PUBLIC_URL + single}
                               className="img-fluid"

@@ -16,7 +16,6 @@ const IconGroup = ({
   const handleClick = (e) => {
     e.currentTarget.nextSibling.classList.toggle("active");
   };
-  const [modalShow, setModalShow] = useState(false);
   const triggerMobileMenu = () => {
     const offcanvasMobileMenu = document.querySelector(
       "#offcanvas-mobile-menu"
@@ -35,11 +34,7 @@ const IconGroup = ({
         <div className="search-content">
           <form action="#">
             <input type="text" placeholder="Search" />
-            <button
-              className="button-search"
-              onClick={() => setModalShow(true)}
-              title="Quick View"
-            >
+            <button className="button-search" title="Quick View">
               <i className="pe-7s-search" />
             </button>
           </form>

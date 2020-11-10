@@ -1,0 +1,269 @@
+/*=============================================
+=            coming soon seven            =
+=============================================*/
+
+/* content */
+.cs-07-content {
+  &__subtitle {
+    font-family: $baseFont;
+    font-size: 24px;
+    font-weight: 400;
+
+    color: $black;
+
+    @media #{$xxs-layout} {
+      font-size: 20px;
+    }
+  }
+
+  &__title {
+    font-family: $baseFont;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.3;
+
+    color: $theme-color;
+
+    @media #{$xx-layout} {
+      font-size: 50px;
+    }
+    @media #{$lg-layout,
+        $md-layout,
+        $xs-layout} {
+      font-size: 40px;
+    }
+    @media #{$sm-layout} {
+      font-size: 30px;
+    }
+
+    @media #{$xxs-layout} {
+      font-size: 24px;
+    }
+  }
+  &__text {
+    font-family: $baseFont;
+    font-size: 18px;
+    line-height: 1.9;
+
+    width: 700px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+    color: $theme-color;
+  }
+}
+
+/* countdown */
+.cs-07-countdown {
+  font-family: $baseFont;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  text-align: center;
+
+  @media #{$sm-layout} {
+    margin-bottom: -30px;
+  }
+  .single-countdown {
+    flex-basis: 110px;
+
+    margin-right: 30px;
+    @media #{$lg-layout,
+        $md-layout,
+        $xs-layout} {
+      flex-basis: 90px;
+    }
+
+    @media #{$xxs-layout} {
+      flex-basis: 70px;
+    }
+
+    @media #{$sm-layout} {
+      margin-right: 15px;
+      margin-bottom: 30px;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+    &__time {
+      font-size: 48px;
+      font-weight: 500;
+
+      display: block;
+
+      margin-bottom: 15px;
+      padding: 24px 0;
+
+      color: $white;
+      border-radius: 0;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      @media #{$lg-layout,
+            $md-layout,
+            $xs-layout} {
+        font-size: 35px;
+      }
+
+      @media #{$sm-layout} {
+        font-size: 35px;
+      }
+
+      @media #{$xxs-layout} {
+        font-size: 25px;
+      }
+    }
+    &__text {
+      font-family: $baseFont;
+      font-size: 18px;
+
+      color: $theme-color;
+
+      @media #{$xxs-layout} {
+        font-size: 16px;
+      }
+    }
+  }
+}
+.img-fluid {
+  max-width: 45%;
+}
+/* subscription */
+.cs-07-subscription-wrapper {
+  .mc-newsletter-form {
+    input[type="email"] {
+      font-family: $baseFont;
+      font-size: 16px;
+
+      width: 500px;
+      max-width: 100%;
+      margin-right: 5px;
+      padding: 25px 30px;
+
+      color: $navy;
+      border: 1px solid $white;
+      border-radius: 10px;
+      background-color: $white;
+
+      @media #{$lg-layout,
+            $md-layout} {
+        width: 300px;
+        padding: 20px 30px;
+      }
+
+      @media #{$xs-layout} {
+        margin-bottom: 15px;
+        padding: 20px 30px;
+      }
+    }
+
+    button,
+    a {
+      font-family: $baseFont;
+      font-size: 18px;
+      font-weight: 500;
+
+      padding: 25px 65px;
+
+      color: $white;
+      border: none;
+      border-radius: 10px;
+      background: none;
+      background-color: $theme-color;
+
+      @media #{$lg-layout,
+            $md-layout,
+            $xs-layout} {
+        font-size: 16px;
+
+        padding: 22px 40px;
+      }
+
+      &:hover {
+        background-color: darken($color: $theme-color, $amount: 10);
+      }
+    }
+    ::placeholder {
+      opacity: 1;
+
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: $navy;
+    }
+
+    :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: $navy;
+    }
+
+    ::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: $navy;
+    }
+  }
+
+  .mailchimp-alerts {
+    font-family: $baseFont;
+    line-height: 1.3;
+
+    color: $navy;
+    a {
+      &:hover {
+        color: $theme-color;
+      }
+    }
+  }
+}
+
+/* social icon*/
+.cs-07-social-icons {
+  & > li {
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+    & > a {
+      margin-right: 10px;
+      i {
+        * {
+          transition: $transition--default;
+
+          stroke: $navy;
+        }
+      }
+      &:hover {
+        svg {
+          * {
+            stroke: $theme-color;
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$xs-layout} {
+    margin-top: 15px;
+  }
+}
+
+/* copyright text */
+.cs-07-copyright {
+  font-family: $baseFont;
+
+  color: $navy;
+
+  @media #{$xs-layout} {
+    text-align: center;
+  }
+
+  a {
+    &:hover {
+      color: $theme-color;
+    }
+  }
+}
+
+/*=====  End of coming soon seven  ======*/

@@ -16,11 +16,11 @@ const MobileNavMenu = ({ strings }) => {
               </Link>
               <ul className="sub-menu">
                 <li>
-                  <Link to={process.env.PUBLIC_URL + "/home-fashion"}>
+                  <Link to={process.env.PUBLIC_URL + "/home"}>
                     {strings["home_fashion"]}
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to={process.env.PUBLIC_URL + "/home-fashion-two"}>
                     {strings["home_fashion_two"]}
                   </Link>
@@ -218,7 +218,7 @@ const MobileNavMenu = ({ strings }) => {
                   <Link to={process.env.PUBLIC_URL + "/home-valentines-day"}>
                     {strings["home_valentines_day"]}
                   </Link>
-                </li>
+                </li>*/}
               </ul>
             </li>
           </ul>

@@ -34,11 +34,11 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/home-fashion"}>
+                    <Link to={process.env.PUBLIC_URL + "/home"}>
                       {strings["home_fashion"]}
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to={process.env.PUBLIC_URL + "/home-fashion-two"}>
                       {strings["home_fashion_two"]}
                     </Link>
@@ -248,7 +248,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                     <Link to={process.env.PUBLIC_URL + "/home-valentines-day"}>
                       {strings["home_valentines_day"]}
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
             </ul>
@@ -269,11 +269,11 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               <li>
                 <ul>
                   <li className="mega-menu-title">
-                    <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                    <Link to={process.env.PUBLIC_URL + "/shop"}>
                       {strings["shop_layout"]}
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
                       {strings["shop_grid_standard"]}
                     </Link>
@@ -319,7 +319,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                     <Link to={process.env.PUBLIC_URL + "/shop-list-two-column"}>
                       {strings["shop_list_two_column"]}
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li>
@@ -329,7 +329,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                       {strings["product_details"]}
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to={process.env.PUBLIC_URL + "/product/1"}>
                       {strings["product_tab_bottom"]}
                     </Link>
@@ -375,17 +375,17 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                     <Link to={process.env.PUBLIC_URL + "/product/9"}>
                       {strings["product_affiliate"]}
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li>
                 <ul>
                   <li className="mega-menu-img">
-                    <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                    <Link to={process.env.PUBLIC_URL + "/shop"}>
                       <img
                         src={
                           process.env.PUBLIC_URL +
-                          "/assets/img/banner/banner-12.png"
+                          "/assets/img/banner/vegetarians.jpg"
                         }
                         alt=""
                       />

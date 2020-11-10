@@ -14,6 +14,7 @@ const Home = lazy(() => import("./pages/home/Home"));
 
 const MyAccount = lazy(() => import("./pages/other/MyAccount"));
 const LoginRegister = lazy(() => import("./pages/other/LoginRegister"));
+const ComingSoon = lazy(() => import("./pages/other/ComingSoon"));
 
 const Cart = lazy(() => import("./pages/other/Cart"));
 const Wishlist = lazy(() => import("./pages/other/Wishlist"));
@@ -97,6 +98,7 @@ function App(props) {
                   path={process.env.PUBLIC_URL + "/product/:id"}
                   component={ProductTabLeft}
                 />
+                <Route component={ComingSoon} />
               </Switch>
             </Suspense>
           </ScrollToTop>

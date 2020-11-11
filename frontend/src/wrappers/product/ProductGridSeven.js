@@ -18,7 +18,7 @@ const ProductGridSeven = ({
   compareItems,
   sliderClassName,
   spaceBottomClass,
-  colorClass
+  colorClass,
 }) => {
   return (
     <Fragment>
@@ -65,7 +65,7 @@ ProductGridSeven.propTypes = {
   sliderClassName: PropTypes.string,
   spaceBottomClass: PropTypes.string,
   colorClass: PropTypes.string,
-  wishlistItems: PropTypes.array
+  wishlistItems: PropTypes.array,
 };
 
 const mapStateToProps = (state, ownProps) => {
@@ -79,7 +79,7 @@ const mapStateToProps = (state, ownProps) => {
     currency: state.currencyData,
     cartItems: state.cartData,
     wishlistItems: state.wishlistData,
-    compareItems: state.compareData
+    compareItems: state.compareData,
   };
 };
 
@@ -107,7 +107,7 @@ const mapDispatchToProps = (dispatch) => {
     },
     addToCompare: (item, addToast) => {
       dispatch(addToCompare(item, addToast));
-    }
+    },
   };
 };
 

@@ -42,7 +42,9 @@ const ComingSoon = () => {
                 <div className="cs-07-logo space-mb--35">
                   <Link to={process.env.PUBLIC_URL + "/"}>
                     <img
-                      src={process.env.PUBLIC_URL + "/assets/img/logo/logo.svg"}
+                      src={
+                        process.env.PUBLIC_URL + "/assets/img/logo/logo2.svg"
+                      }
                       className="img-fluid"
                       alt="Samteriors"
                     />

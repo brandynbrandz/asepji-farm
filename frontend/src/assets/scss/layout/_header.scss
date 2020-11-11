@@ -98,6 +98,11 @@
   @media #{$xs-layout} {
     margin-top: 0;
   }
+  img {
+    @media #{$xxs-layout,$xxxs-layout} {
+      max-width: 122px;
+    }
+  }
   &.logo-hm5 {
     margin-top: 41px;
     a.sticky-block {
@@ -107,6 +112,7 @@
         display: block;
       }
     }
+
     a.sticky-none {
       display: block;
       @media #{$md-layout,

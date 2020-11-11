@@ -19,7 +19,7 @@ const OffcanvasMenu = ({ activeState, getActiveState }) => {
         <Link to={process.env.PUBLIC_URL + "/"}>
           <img
             alt=""
-            src={process.env.PUBLIC_URL + "/assets/img/logo/logo.svg"}
+            src={process.env.PUBLIC_URL + "/assets/img/logo/logo2.svg"}
           />
         </Link>
       </div>

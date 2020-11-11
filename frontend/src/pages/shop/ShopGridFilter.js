@@ -12,7 +12,7 @@ import ShopTopbarFilter from "../../wrappers/product/shop/ShopTopbarFilter";
 import ShopProducts from "../../wrappers/product/shop/ShopProducts";
 
 const ShopGridFilter = ({ location, products }) => {
-  const [layout, setLayout] = useState("grid three-column");
+  const [layout, setLayout] = useState("grid two-column");
   const [sortType, setSortType] = useState("");
   const [sortValue, setSortValue] = useState("");
   const [filterSortType, setFilterSortType] = useState("");
@@ -73,7 +73,7 @@ const ShopGridFilter = ({ location, products }) => {
         <div className="shop-area pt-95 pb-100">
           <div className="container">
             <div className="row">
-              <div className="col-lg-12">
+              <div className="col-lg-9">
                 {/* shop topbar default */}
                 <ShopTopbar
                   getLayout={getLayout}

@@ -53,7 +53,7 @@ const FooterOne = ({
           >
             {/* footer copyright */}
             <FooterCopyright
-              footerLogo="/assets/img/logo/logo.svg"
+              footerLogo="/assets/img/logo/logo2.svg"
               spaceBottomClass="mb-30"
             />
           </div>

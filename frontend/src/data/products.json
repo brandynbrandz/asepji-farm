@@ -1395,7 +1395,7 @@
   {
     "id": "44",
     "sku": "asdf166",
-    "name": "Lorem ipsum flower one",
+    "name": "Ginger",
     "price": 1.5,
     "discount": 20,
     "new": true,
@@ -1405,11 +1405,11 @@
     "tag": ["flower"],
     "stock": 6,
     "image": [
-      "/assets/img/product/flowers/1.jpg",
-      "/assets/img/product/flowers/2.jpg",
-      "/assets/img/product/flowers/3.jpg",
-      "/assets/img/product/flowers/4.jpg",
-      "/assets/img/product/flowers/5.jpg"
+      "/assets/img/product/flowers/ginger.png",
+      "/assets/img/product/flowers/ginger2.png",
+      "/assets/img/product/flowers/ginger.png",
+      "/assets/img/product/flowers/ginger2.png",
+      "/assets/img/product/flowers/ginger.png"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
@@ -1417,7 +1417,7 @@
   {
     "id": "45",
     "sku": "asdf167",
-    "name": "Lorem ipsum flower two",
+    "name": "Tumeric",
     "price": 6.5,
     "discount": 30,
     "new": false,
@@ -1427,11 +1427,11 @@
     "tag": ["flower"],
     "stock": 7,
     "image": [
-      "/assets/img/product/flowers/2.jpg",
-      "/assets/img/product/flowers/3.jpg",
-      "/assets/img/product/flowers/4.jpg",
-      "/assets/img/product/flowers/5.jpg",
-      "/assets/img/product/flowers/6.jpg"
+      "/assets/img/product/flowers/tumeric.png",
+      "/assets/img/product/flowers/tumeric3.png",
+      "/assets/img/product/flowers/tumeric.png",
+      "/assets/img/product/flowers/tumeric2.png",
+      "/assets/img/product/flowers/tumeric.png"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
@@ -1439,7 +1439,7 @@
   {
     "id": "46",
     "sku": "asdf168",
-    "name": "Lorem ipsum flower three",
+    "name": "Red Onion",
     "price": 3.5,
     "discount": 5,
     "new": true,
@@ -1449,11 +1449,11 @@
     "tag": ["flower"],
     "stock": 10,
     "image": [
-      "/assets/img/product/flowers/3.jpg",
-      "/assets/img/product/flowers/4.jpg",
-      "/assets/img/product/flowers/5.jpg",
-      "/assets/img/product/flowers/6.jpg",
-      "/assets/img/product/flowers/7.jpg"
+      "/assets/img/product/flowers/redonion2.png",
+      "/assets/img/product/flowers/redonion.png",
+      "/assets/img/product/flowers/redonion.png",
+      "/assets/img/product/flowers/redonion.png",
+      "/assets/img/product/flowers/redonion.png"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
@@ -1461,7 +1461,7 @@
   {
     "id": "47",
     "sku": "asdf169",
-    "name": "Lorem ipsum flower four",
+    "name": "Cabbage",
     "price": 4.5,
     "discount": 20,
     "new": true,
@@ -1471,11 +1471,11 @@
     "tag": ["flower"],
     "stock": 6,
     "image": [
-      "/assets/img/product/flowers/4.jpg",
-      "/assets/img/product/flowers/5.jpg",
-      "/assets/img/product/flowers/6.jpg",
-      "/assets/img/product/flowers/7.jpg",
-      "/assets/img/product/flowers/8.jpg"
+      "/assets/img/product/flowers/cabbage2.png",
+      "/assets/img/product/flowers/cabbage3.png",
+      "/assets/img/product/flowers/cabbage.png",
+      "/assets/img/product/flowers/cabbage.png",
+      "/assets/img/product/flowers/cabbage2.png"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
@@ -1483,7 +1483,7 @@
   {
     "id": "48",
     "sku": "asdf170",
-    "name": "Lorem ipsum flower five",
+    "name": "White Onion",
     "price": 7.5,
     "discount": 30,
     "new": true,
@@ -1493,11 +1493,11 @@
     "tag": ["flower"],
     "stock": 7,
     "image": [
-      "/assets/img/product/flowers/5.jpg",
-      "/assets/img/product/flowers/6.jpg",
-      "/assets/img/product/flowers/7.jpg",
-      "/assets/img/product/flowers/8.jpg",
-      "/assets/img/product/flowers/1.jpg"
+      "/assets/img/product/flowers/whiteonion.png",
+      "/assets/img/product/flowers/whiteonion.png",
+      "/assets/img/product/flowers/whiteonion.png",
+      "/assets/img/product/flowers/whiteonion.png",
+      "/assets/img/product/flowers/whiteonion.png"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
@@ -1505,7 +1505,7 @@
   {
     "id": "49",
     "sku": "asdf171",
-    "name": "Lorem ipsum flower six",
+    "name": "Coriander (dhania)",
     "price": 4.5,
     "discount": 10,
     "new": false,
@@ -1515,11 +1515,11 @@
     "tag": ["flower"],
     "stock": 10,
     "image": [
-      "/assets/img/product/flowers/6.jpg",
-      "/assets/img/product/flowers/7.jpg",
-      "/assets/img/product/flowers/8.jpg",
-      "/assets/img/product/flowers/1.jpg",
-      "/assets/img/product/flowers/2.jpg"
+      "/assets/img/product/flowers/coriander2.png",
+      "/assets/img/product/flowers/coriander.png",
+      "/assets/img/product/flowers/coriander2.png",
+      "/assets/img/product/flowers/coriander.png",
+      "/assets/img/product/flowers/coriander2.png"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
@@ -1527,9 +1527,9 @@
   {
     "id": "50",
     "sku": "asdf172",
-    "name": "Lorem ipsum flower seven",
+    "name": "Spinach",
     "price": 3.5,
-    "discount": 20,
+    "discount": 0,
     "new": true,
     "rating": 5,
     "saleCount": 5,
@@ -1537,11 +1537,11 @@
     "tag": ["flower"],
     "stock": 6,
     "image": [
-      "/assets/img/product/flowers/7.jpg",
-      "/assets/img/product/flowers/8.jpg",
-      "/assets/img/product/flowers/1.jpg",
-      "/assets/img/product/flowers/2.jpg",
-      "/assets/img/product/flowers/3.jpg"
+      "/assets/img/product/flowers/spinach2.png",
+      "/assets/img/product/flowers/spinach.png",
+      "/assets/img/product/flowers/spinach2.png",
+      "/assets/img/product/flowers/spinach.png",
+      "/assets/img/product/flowers/spinach2.png"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
@@ -1549,7 +1549,7 @@
   {
     "id": "51",
     "sku": "asdf173",
-    "name": "Lorem ipsum flower eight",
+    "name": "Green Bell Pepper",
     "price": 2.5,
     "discount": 30,
     "new": true,
@@ -1559,11 +1559,11 @@
     "tag": ["flower"],
     "stock": 10,
     "image": [
-      "/assets/img/product/flowers/8.jpg",
-      "/assets/img/product/flowers/1.jpg",
-      "/assets/img/product/flowers/2.jpg",
-      "/assets/img/product/flowers/3.jpg",
-      "/assets/img/product/flowers/4.jpg"
+      "/assets/img/product/flowers/greenpepper.png",
+      "/assets/img/product/flowers/greenpepper.png",
+      "/assets/img/product/flowers/greenpepper.png",
+      "/assets/img/product/flowers/greenpepper.png",
+      "/assets/img/product/flowers/greenpepper.png"
     ],
     "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."

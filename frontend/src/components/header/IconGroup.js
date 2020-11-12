@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import MenuCart from "./sub-components/MenuCart";
 import { deleteFromCart } from "../../redux/actions/cartActions";
+import Tippy from "@tippy.js/react";
+import "tippy.js/dist/tippy.css";
 
 const IconGroup = ({
   currency,
@@ -28,9 +30,11 @@ const IconGroup = ({
       className={`header-right-wrap ${iconWhiteClass ? iconWhiteClass : ""}`}
     >
       <div className="same-style header-search d-none d-lg-block">
-        <button className="search-active" onClick={(e) => handleClick(e)}>
-          <i className="pe-7s-search" />
-        </button>
+        <Tippy content="Search" arrow={false} placement="bottom">
+          <button className="search-active" onClick={(e) => handleClick(e)}>
+            <i className="pe-7s-search" />
+          </button>
+        </Tippy>
         <div className="search-content">
           <form action="#">
             <input type="text" placeholder="Search" />
@@ -41,12 +45,14 @@ const IconGroup = ({
         </div>
       </div>
       <div className="same-style account-setting d-none d-lg-block">
-        <button
-          className="account-setting-active"
-          onClick={(e) => handleClick(e)}
-        >
-          <i className="pe-7s-user-female" />
-        </button>
+        <Tippy content="Account" arrow={false} placement="bottom">
+          <button
+            className="account-setting-active"
+            onClick={(e) => handleClick(e)}
+          >
+            <i className="pe-7s-user-female" />
+          </button>
+        </Tippy>
         <div className="account-dropdown">
           <ul>
             <li>
@@ -66,28 +72,34 @@ const IconGroup = ({
         </div>
       </div>
       <div className="same-style header-compare">
-        <Link to={process.env.PUBLIC_URL + "/compare"}>
-          <i className="pe-7s-shuffle" />
-          <span className="count-style">
-            {compareData && compareData.length ? compareData.length : 0}
-          </span>
-        </Link>
+        <Tippy content="Compare items" arrow={false} placement="bottom">
+          <Link to={process.env.PUBLIC_URL + "/compare"}>
+            <i className="pe-7s-shuffle" />
+            <span className="count-style">
+              {compareData && compareData.length ? compareData.length : 0}
+            </span>
+          </Link>
+        </Tippy>
       </div>
       <div className="same-style header-wishlist">
-        <Link to={process.env.PUBLIC_URL + "/wishlist"}>
-          <i className="pe-7s-like" />
-          <span className="count-style">
-            {wishlistData && wishlistData.length ? wishlistData.length : 0}
-          </span>
-        </Link>
+        <Tippy content="Wishlist" arrow={false} placement="bottom">
+          <Link to={process.env.PUBLIC_URL + "/wishlist"}>
+            <i className="pe-7s-like" />
+            <span className="count-style">
+              {wishlistData && wishlistData.length ? wishlistData.length : 0}
+            </span>
+          </Link>
+        </Tippy>
       </div>
       <div className="same-style cart-wrap d-none d-lg-block">
-        <button className="icon-cart" onClick={(e) => handleClick(e)}>
-          <i className="pe-7s-shopbag" />
-          <span className="count-style">
-            {cartData && cartData.length ? cartData.length : 0}
-          </span>
-        </button>
+        <Tippy content="Cart" arrow={false} placement="bottom">
+          <button className="icon-cart" onClick={(e) => handleClick(e)}>
+            <i className="pe-7s-shopbag" />
+            <span className="count-style">
+              {cartData && cartData.length ? cartData.length : 0}
+            </span>
+          </button>
+        </Tippy>
         {/* menu cart */}
         <MenuCart
           cartData={cartData}

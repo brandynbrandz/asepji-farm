@@ -73,7 +73,7 @@ const ShopGridFilter = ({ location, products }) => {
         <div className="shop-area pt-95 pb-100">
           <div className="container">
             <div className="row">
-              <div className="col-lg-9">
+              <div className="col-lg-12">
                 {/* shop topbar default */}
                 <ShopTopbar
                   getLayout={getLayout}

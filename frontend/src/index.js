@@ -8,7 +8,6 @@ import { fetchProducts } from "./redux/actions/productActions";
 import rootReducer from "./redux/reducers/rootReducer";
 import products from "./data/products.json";
 import "./index.scss";
-// import "./assets/css/whole.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 

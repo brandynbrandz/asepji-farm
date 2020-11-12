@@ -11,7 +11,7 @@ export const addToCart = (
   selectedProductColor,
   selectedProductSize
 ) => {
-  return dispatch => {
+  return (dispatch) => {
     if (addToast) {
       addToast("Added To Cart", { appearance: "success", autoDismiss: true });
     }
@@ -29,18 +29,18 @@ export const addToCart = (
           ? selectedProductSize
           : item.selectedProductSize
           ? item.selectedProductSize
-          : null
-      }
+          : null,
+      },
     });
   };
 };
 //decrease from cart
 export const decreaseQuantity = (item, addToast) => {
-  return dispatch => {
+  return (dispatch) => {
     if (addToast) {
       addToast("Item Decremented From Cart", {
         appearance: "warning",
-        autoDismiss: true
+        autoDismiss: true,
       });
     }
     dispatch({ type: DECREASE_QUANTITY, payload: item });
@@ -48,7 +48,7 @@ export const decreaseQuantity = (item, addToast) => {
 };
 //delete from cart
 export const deleteFromCart = (item, addToast) => {
-  return dispatch => {
+  return (dispatch) => {
     if (addToast) {
       addToast("Removed From Cart", { appearance: "error", autoDismiss: true });
     }
@@ -56,12 +56,12 @@ export const deleteFromCart = (item, addToast) => {
   };
 };
 //delete all from cart
-export const deleteAllFromCart = addToast => {
-  return dispatch => {
+export const deleteAllFromCart = (addToast) => {
+  return (dispatch) => {
     if (addToast) {
       addToast("Removed All From Cart", {
         appearance: "error",
-        autoDismiss: true
+        autoDismiss: true,
       });
     }
     dispatch({ type: DELETE_ALL_FROM_CART });
@@ -74,7 +74,7 @@ export const cartItemStock = (item, color, size) => {
     return item.stock;
   } else {
     return item.variation
-      .filter(single => single.color === color)[0]
-      .size.filter(single => single.name === size)[0].stock;
+      .filter((single) => single.color === color)[0]
+      .size.filter((single) => single.name === size)[0].stock;
   }
 };

@@ -3,6 +3,8 @@ import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import { useToasts } from "react-toast-notifications";
 import { getDiscountPrice } from "../../helpers/product";
+import LazyLoad from "react-lazyload";
+
 import ProductModal from "./ProductModal";
 
 const ProductGridSingleSeven = ({
@@ -41,11 +43,13 @@ const ProductGridSingleSeven = ({
         >
           <div className="product-img">
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
-              <img
-                className="default-img"
-                src={process.env.PUBLIC_URL + product.image[0]}
-                alt=""
-              />
+              <LazyLoad height={200}>
+                <img
+                  className="default-img"
+                  src={process.env.PUBLIC_URL + product.image[0]}
+                  alt=""
+                />
+              </LazyLoad>
               {product.image.length > 1 ? (
                 <img
                   className="hover-img"

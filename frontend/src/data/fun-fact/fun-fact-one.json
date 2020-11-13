@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "iconClass": "pe-7s-portfolio",
+    "countNum": 50000,
+    "title": "Produce Harvested"
+  },
+  {
+    "id": "2",
+    "iconClass": "pe-7s-cup",
+    "countNum": 690,
+    "title": "cups of coffee"
+  },
+  {
+    "id": "3",
+    "iconClass": "pe-7s-light",
+    "countNum": 10000,
+    "title": "Produce Sold"
+  },
+  {
+    "id": "4",
+    "iconClass": "pe-7s-smile",
+    "countNum": 4000,
+    "title": "happy clients"
+  }
+]

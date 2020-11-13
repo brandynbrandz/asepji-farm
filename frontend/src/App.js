@@ -15,6 +15,8 @@ const Home = lazy(() => import("./pages/home/Home"));
 const MyAccount = lazy(() => import("./pages/other/MyAccount"));
 const LoginRegister = lazy(() => import("./pages/other/LoginRegister"));
 const ComingSoon = lazy(() => import("./pages/other/ComingSoon"));
+const About = lazy(() => import("./pages/other/About"));
+const Contact = lazy(() => import("./pages/other/Contact"));
 
 const Cart = lazy(() => import("./pages/other/Cart"));
 const Wishlist = lazy(() => import("./pages/other/Wishlist"));
@@ -79,6 +81,18 @@ function App(props) {
                 <Route
                   path={process.env.PUBLIC_URL + "/wishlist"}
                   component={Wishlist}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/about"}
+                  component={About}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/wishlist"}
+                  component={Wishlist}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/contact"}
+                  component={Contact}
                 />
 
                 {/* Shop */}

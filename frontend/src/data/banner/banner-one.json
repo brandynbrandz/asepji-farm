@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/img/banner/vegetarians.png",
+    "title": "Vegetables",
+    "subtitle": "Starting at",
+    "price": "Ksh.350/kg",
+    "link": "/shop"
+  },
+
+  {
+    "id": 2,
+    "image": "/assets/img/banner/chickenbanner2.png",
+    "title": "Chicken",
+    "subtitle": "Starting at",
+    "price": "Ksh.850",
+    "link": "/shop"
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/banner/featuredbanner.png",
+    "title": "Featured (Tumeric)",
+    "subtitle": "Starting at",
+    "price": "Ksh 29.00",
+    "link": "/shop"
+  }
+]

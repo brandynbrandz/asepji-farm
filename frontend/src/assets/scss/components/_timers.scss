@@ -255,6 +255,10 @@
 }
 
 .funfact-image {
+  img {
+    border-radius: 20px;
+    opacity: 0.95;
+  }
   @media #{$xs-layout} {
     margin: 30px 0 0;
   }

@@ -2,14 +2,13 @@ import PropTypes from "prop-types";
 import React, { Fragment } from "react";
 import MetaTags from "react-meta-tags";
 import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
-import LayoutOne from "../../layouts/LayoutOne";
+import LayoutThree from "../../layouts/LayoutThree";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import SectionTitleWithText from "../../components/section-title/SectionTitleWithText";
 import BannerOne from "../../wrappers/banner/BannerOne";
 import TextGridOne from "../../wrappers/text-grid/TextGridOne";
 import FunFactOne from "../../wrappers/fun-fact/FunFactOne";
 import TeamMemberOne from "../../wrappers/team-member/TeamMemberOne";
-import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 
 const About = ({ location }) => {
   const { pathname } = location;
@@ -17,17 +16,17 @@ const About = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | About us</title>
+        <title>Asepji | About us</title>
         <meta
           name="description"
-          content="About page of flone react minimalist eCommerce template."
+          content="About page of Asepji Organics ecommerce."
         />
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
         About us
       </BreadcrumbsItem>
-      <LayoutOne headerTop="visible">
+      <LayoutThree headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb />
 
@@ -49,16 +48,13 @@ const About = ({ location }) => {
 
         {/* team member */}
         <TeamMemberOne spaceTopClass="pt-95" spaceBottomClass="pb-70" />
-
-        {/* brand logo slider */}
-        <BrandLogoSliderOne spaceBottomClass="pb-70" />
-      </LayoutOne>
+      </LayoutThree>
     </Fragment>
   );
 };
 
 About.propTypes = {
-  location: PropTypes.object
+  location: PropTypes.object,
 };
 
 export default About;

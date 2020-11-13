@@ -74,7 +74,9 @@ const LanguageCurrencyChanger = ({
         </div>
       </div>
       <div className="same-language-currency">
-        <p>Call Us +254 710219069</p>
+        <a href="tel:+254710219069" className="tel-no">
+          <p> Call Us +254 710219069</p>
+        </a>
       </div>
     </div>
   );

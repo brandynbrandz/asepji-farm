@@ -3,24 +3,22 @@ import React from "react";
 
 const Renderer = ({ days, hours, minutes, seconds }) => {
   return (
-    <>
-      <div className="single-countdown">
-        <span className="single-countdown__time">{days}</span>
-        <span className="single-countdown__text">Days</span>
+    <div className="timer timer-style">
+      <div>
+        <span className="cdown day">
+          {days} <p>Days</p>
+        </span>
+        <span className="cdown hour">
+          {hours} <p>Hours</p>
+        </span>
+        <span className="cdown minutes">
+          {minutes} <p>Minutes</p>
+        </span>
+        <span>
+          {seconds} <p>Secs</p>
+        </span>
       </div>
-      <div className="single-countdown">
-        <span className="single-countdown__time">{hours}</span>
-        <span className="single-countdown__text">Hours</span>
-      </div>
-      <div className="single-countdown">
-        <span className="single-countdown__time">{minutes}</span>
-        <span className="single-countdown__text">Minutes</span>
-      </div>
-      <div className="single-countdown">
-        <span className="single-countdown__time">{seconds}</span>
-        <span className="single-countdown__text">Seconds</span>
-      </div>
-    </>
+    </div>
   );
 };
 

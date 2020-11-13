@@ -279,28 +279,28 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/shop-grid-filter"}>
+                    <Link to={process.env.PUBLIC_URL + "/shop-filter"}>
                       {strings["shop_grid_filter"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
+                    <Link to={process.env.PUBLIC_URL + "/shop-two-column"}>
                       {strings["shop_grid_two_column"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/shop-grid-no-sidebar"}>
+                    <Link to={process.env.PUBLIC_URL + "/shop-no-sidebar"}>
                       {strings["shop_grid_no_sidebar"]}
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "/shop-grid-full-width"}>
+                    <Link to={process.env.PUBLIC_URL + "/shop-full-width"}>
                       {strings["shop_grid_full_width"]}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      to={process.env.PUBLIC_URL + "/shop-grid-right-sidebar"}
+                      to={process.env.PUBLIC_URL + "/shop-right-sidebar"}
                     >
                       {strings["shop_grid_right_sidebar"]}
                     </Link>
@@ -459,7 +459,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
               </li>
             </ul>
           </li>
-          <li>
+          {/* <li>
             <Link to={process.env.PUBLIC_URL + "/blog"}>
               {strings["blog"]}
               {sidebarMenu ? (
@@ -492,7 +492,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                 </Link>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>
               {strings["contact_us"]}

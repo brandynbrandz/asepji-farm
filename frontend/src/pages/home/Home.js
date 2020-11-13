@@ -5,6 +5,8 @@ import HeroSliderFive from "../../wrappers/hero-slider/HeroSliderFive";
 import LayoutThree from "../../layouts/LayoutThree";
 
 import TabProductEighteen from "../../wrappers/product/TabProductEighteen";
+import CountDownThree from "../../wrappers/countdown/CountDownThree";
+import NewsletterThree from "../../wrappers/newsletter/NewsletterThree";
 
 const Home = () => {
   return (
@@ -32,6 +34,19 @@ const Home = () => {
           productTabClass="product-tab-fruits"
         />
         <BannerFourteen spaceTopClass="pt-95" spaceBottomClass="pb-70" />
+        {/* countdown */}
+        <CountDownThree
+          spaceBottomClass="pb-100"
+          dateTime="December 13, 2020 12:12:00"
+          countDownImage="/assets/img/banner/offer.png"
+        />
+
+        {/* newsletter */}
+        <NewsletterThree
+          spaceTopClass="pt-100"
+          spaceBottomClass="pb-100"
+          subscribeBtnClass="dark-red-subscribe"
+        />
       </LayoutThree>
     </>
   );

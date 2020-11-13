@@ -18,7 +18,7 @@ const HeroSliderFiveSingle = ({ data, sliderClass }) => {
               <h1 className="animated">{data.subtitle}</h1>
               <div className="slider-btn btn-hover">
                 <Link
-                  className="animated"
+                  className="animated rounden-btn"
                   to={process.env.PUBLIC_URL + data.url}
                 >
                   SHOP NOW
@@ -34,7 +34,7 @@ const HeroSliderFiveSingle = ({ data, sliderClass }) => {
 
 HeroSliderFiveSingle.propTypes = {
   data: PropTypes.object,
-  sliderClass: PropTypes.string
+  sliderClass: PropTypes.string,
 };
 
 export default HeroSliderFiveSingle;

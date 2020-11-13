@@ -17,6 +17,7 @@
     "react-bootstrap": "^1.4.0",
     "react-breadcrumbs-dynamic": "^1.2.1",
     "react-countdown": "^2.3.1",
+    "react-countdown-now": "^2.1.2",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-hooks-paginator": "^0.4.4",

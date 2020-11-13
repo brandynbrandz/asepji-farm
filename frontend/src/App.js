@@ -48,8 +48,8 @@ function App(props) {
           <ScrollToTop>
             <Suspense
               fallback={
-                <div className="flone-preloader-wrapper">
-                  <div className="flone-preloader">
+                <div className="asepji-preloader-wrapper">
+                  <div className="asepji-preloader">
                     <span></span>
                     <span></span>
                   </div>

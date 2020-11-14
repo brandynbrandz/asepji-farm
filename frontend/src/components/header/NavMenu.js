@@ -385,7 +385,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                       <img
                         src={
                           process.env.PUBLIC_URL +
-                          "/assets/img/banner/vegetarians.jpg"
+                          "/assets/img/banner/headerbanner.png"
                         }
                         alt=""
                       />

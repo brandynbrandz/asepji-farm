@@ -20,6 +20,7 @@ const Contact = lazy(() => import("./pages/other/Contact"));
 
 const Cart = lazy(() => import("./pages/other/Cart"));
 const Wishlist = lazy(() => import("./pages/other/Wishlist"));
+const ForgotPassword = lazy(() => import("./pages/other/ForgotPassword"));
 
 // shop page
 const ShopGridFilter = lazy(() => import("./pages/shop/ShopGridFilter"));
@@ -99,6 +100,10 @@ function App(props) {
                 <Route
                   path={process.env.PUBLIC_URL + "/shop"}
                   component={ShopGridFilter}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/password-recovery"}
+                  component={ForgotPassword}
                 />
 
                 {/* Product */}
